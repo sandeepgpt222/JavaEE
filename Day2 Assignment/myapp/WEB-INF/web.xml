@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+	<servlet>
+		<servlet-name>RegisterServ</servlet-name>
+		<servlet-class>RegisterServ</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>RegisterServ</servlet-name>
+		<url-pattern>/RegisterServ</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>LoginServ</servlet-name>
+		<servlet-class>LoginServ</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>LoginServ</servlet-name>
+		<url-pattern>/LoginServ</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>ViewServ</servlet-name>
+		<servlet-class>ViewServ</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ViewServ</servlet-name>
+		<url-pattern>/ViewServ</url-pattern>
+	</servlet-mapping>
+</web-app>
