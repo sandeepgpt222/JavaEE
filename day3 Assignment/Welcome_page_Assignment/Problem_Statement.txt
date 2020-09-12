@@ -10,3 +10,6 @@ store them in ArrayList and store ArrayList inside "session".
 user then will call "ViewServ" servlet, which will retrieve ArrayList from
 session and display all the items purchased.
  	
+
+from prod.html user will select items and click on submit button, he will be redirected to cartserv which says product added successfully.
+Now user has to run "ViewCart" to see all these names of products selected.
